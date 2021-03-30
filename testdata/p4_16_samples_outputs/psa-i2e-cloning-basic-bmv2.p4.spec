@@ -37,7 +37,7 @@ metadata instanceof metadata_t
 header ethernet instanceof ethernet_t
 
 action ingress_drop args none {
-	mov m.psa_ingress_output_metadata_drop 1
+	drop
 	return
 }
 
