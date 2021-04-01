@@ -103,9 +103,9 @@ struct standard_metadata_t {
 
     // intrinsic metadata
     @alias("intrinsic_metadata.ingress_global_timestamp")
-    bit<48> ingress_global_timestamp;
+    bit<64> ingress_global_timestamp;
     @alias("intrinsic_metadata.egress_global_timestamp")
-    bit<48> egress_global_timestamp;
+    bit<64> egress_global_timestamp;
     /// multicast group id (key for the mcast replication table)
     @alias("intrinsic_metadata.mcast_grp")
     bit<16> mcast_grp;
